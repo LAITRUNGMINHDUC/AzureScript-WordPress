@@ -2,6 +2,6 @@
 
 ```
 cd "D:\home\site\wwwroot" & 
-curl "https://lovehackclub.azurewebsites.net/Resources/WP/SetupWP.txt" > SetupWP.bat & 
+curl -L -O "https://raw.github.com/MINHDUC1996/QuickInstall-Azure-WordPress/master/SetupWP.bat" > SetupWP.bat & 
 SetupWP.bat
 ```
