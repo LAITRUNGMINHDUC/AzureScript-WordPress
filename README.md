@@ -1,7 +1,7 @@
 ## Quick Script
 ```
 cd "D:\home\site\wwwroot" & 
-curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" > SetupWP.bat & 
+curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" & 
 SetupWP.bat
 ```
 
@@ -52,7 +52,7 @@ After the Azure Kudu GUI appeared, look at the header, then choose Debug Console
 Paste the script below to the CMD and Run it
 ```
 cd "D:\home\site\wwwroot" & 
-curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" > SetupWP.bat & 
+curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" & 
 SetupWP.bat
 ```
 

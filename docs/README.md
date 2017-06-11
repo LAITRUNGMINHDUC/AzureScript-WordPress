@@ -1,7 +1,7 @@
 ## Quick Script
 ```
 cd "D:\home\site\wwwroot" & 
-curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" > SetupWP.bat & 
+curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" & 
 SetupWP.bat
 ```
 
@@ -32,29 +32,31 @@ Looking at the Left Panel and click New (Plus icon with Green color)
 - Choose Web App
 - Fill the Form (F1 - Free for App Service Plan)
 
-!(https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/WebApp.png)
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/WebApp.PNG)
 
 
 ### Step 2: Go to Debug Console of Azure Kudu 
 
 Currently, my new Web App has the URL: http://duchihi-ecom.azurewebsites.net
+
 Therefore, my Azure Kudu URL will be: https://duchihi-ecom.scm.azurewebsites.net
+
 Your Azure Kudu URL might be: **https://<Your_App_Name>.scm.azurewebsites.net**
 
 After the Azure Kudu GUI appeared, look at the header, then choose Debug Console. At here, choose CMD.
 
-!(https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/Kudu.png)
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/Kudu.png)
 
 ### Step 3: Execute the Script in CMD
 
 Paste the script below to the CMD and Run it
 ```
 cd "D:\home\site\wwwroot" & 
-curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" > SetupWP.bat & 
+curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" & 
 SetupWP.bat
 ```
 
-!(https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/PasteScript.png)
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/PasteScript.png)
 
 ### Step 4: Turn On MySQL in-app in Azure Web App
 
@@ -63,7 +65,7 @@ SetupWP.bat
 - Turn ON MySQL in app
 - Save it
 
-!(https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/MySQL-inapp.png)
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/MySQL-inapp.png)
 
 ### Step 5: Config Virtual Path to WordPress source
 
