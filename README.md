@@ -66,7 +66,7 @@ SetupWP.bat
 ![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/Extract.png)
 
 #### What just happened?
-My script downloaded the latest WordPress package and uncompressed it into D:\home\sites\wwwroot\wordpress. Then it remove the Zip and the Bat file.
+My script downloaded the latest WordPress package and uncompressed it into **D:\home\sites\wwwroot\wordpress**. Then it remove the Zip and the Bat file.
 
 ### Step 4: Turn On MySQL in-app in Azure Web App
 
@@ -85,3 +85,18 @@ My script downloaded the latest WordPress package and uncompressed it into D:\ho
 - Save it
 
 ## Test Your WordPress
+
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/ConfigWP-1.PNG)
+
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/ConfigWP-2.PNG)
+
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/ConfigWP-3.PNG)
+
+
+## Congratulations
+
+If you have any problems, please send an email to me at: minhduc.msp@outlook.com
+
+Demo Web App: https://duchihi-ecom.azurewebsites.net/
+
+Thank you.
