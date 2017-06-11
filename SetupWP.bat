@@ -2,7 +2,7 @@ cd D:\home\site\wwwroot
 curl https://wordpress.org/latest.zip > WP.zip
 unzip WP.zip
 cd wordpress
-curl -L -O "https://raw.github.com/MINHDUC1996/QuickInstall-Azure-WordPress/master/wp-config.php"
-cls
-echo "Install latest WordPress with MySQL in-app successfully"
-exit
+curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/wp-config.php"
+cd D:\home\site\wwwroot
+rm WP.zip
+rm SetupWP.bat
