@@ -84,6 +84,8 @@ My script downloaded the latest WordPress package and uncompressed it into **D:\
 - Replace your current value with ```site\wwwroot\wordpress```
 - Save it
 
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/AppSettings.png)
+
 ## Test Your WordPress
 
 ![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/ConfigWP-1.PNG)
