@@ -1,3 +1,6 @@
+# Installing WordPress on Microsoft Azure Web App for FREE
+#### Without MySQL Database, FTP, or downloading any files to your computer
+
 ## Quick Script
 ```
 cd "D:\home\site\wwwroot" & 
@@ -57,6 +60,13 @@ SetupWP.bat
 ```
 
 ![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/PasteScript.png)
+
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/GetWP.png)
+
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/Extract.png)
+
+#### What just happened?
+My script downloaded the latest WordPress package and uncompressed it into D:\home\sites\wwwroot\wordpress. Then it remove the Zip and the Bat file.
 
 ### Step 4: Turn On MySQL in-app in Azure Web App
 
