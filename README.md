@@ -32,13 +32,15 @@ Looking at the Left Panel and click New (Plus icon with Green color)
 - Choose Web App
 - Fill the Form (F1 - Free for App Service Plan)
 
-![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/WebApp.png)
+![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/WebApp.PNG)
 
 
 ### Step 2: Go to Debug Console of Azure Kudu 
 
-Currently, my new Web App has the URL: [](http://duchihi-ecom.azurewebsites.net)
-Therefore, my Azure Kudu URL will be: [](https://duchihi-ecom.scm.azurewebsites.net)
+Currently, my new Web App has the URL: http://duchihi-ecom.azurewebsites.net
+
+Therefore, my Azure Kudu URL will be: https://duchihi-ecom.scm.azurewebsites.net
+
 Your Azure Kudu URL might be: **https://<Your_App_Name>.scm.azurewebsites.net**
 
 After the Azure Kudu GUI appeared, look at the header, then choose Debug Console. At here, choose CMD.
