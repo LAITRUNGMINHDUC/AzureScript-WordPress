@@ -66,7 +66,9 @@ SetupWP.bat
 ![](https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/docs/Extract.png)
 
 #### What just happened?
-My script downloaded the latest WordPress package and uncompressed it into **D:\home\sites\wwwroot\wordpress**. Then it remove the Zip and the Bat file.
+- My script downloaded the latest WordPress package and uncompressed it into **D:\home\site\wwwroot\wordpress**. 
+- It downloaded a pre-config of **wp-config.php** file for MySQL in-app.
+- It replaced a **web.config** file for beatifying WordPress URI, forcing HTTPS, and DOS mitigation.
 
 ### Step 4: Turn On MySQL in-app in Azure Web App
 
