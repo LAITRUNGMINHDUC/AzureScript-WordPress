@@ -4,7 +4,7 @@
 ## Quick Script
 ```
 cd "D:\home\site\wwwroot" & 
-curl -L -O "https://raw.github.com/MINHDUC1996/AzureScript-WordPress/master/SetupWP.bat" & 
+curl -L -O "https://raw.github.com/LAITRUNGMINHDUC/AzureScript-WordPress/master/SetupWP.bat" & 
 SetupWP.bat & rm SetupWP.bat
 ```
 
